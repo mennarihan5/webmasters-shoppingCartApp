@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="../../output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="container flex justify-between items-center gap-5 md:gap-0 m-auto">
+        <div class="flex items-center justify-between md:justify-center w-full md:w-8/12">
+            <h1 class="w-32 md:w-72">
+                <a href="/index.html"><img class="w-full" src="../../assets/images/Link.svg" alt="Logo"></a>
+            </h1>
+            <nav class="md:w-full">
+                <i class="fa-solid fa-ellipsis-vertical hidden"></i>
+                <ul class="hidden md:flex justify-between">
+                    <li class="text-lg"><a href="#">Electric</a></li>
+                    <li class="text-lg"><a href="#">City</a></li>
+                    <li class="text-lg"><a href="#">Kids</a></li>
+                    <li class="text-lg"><a href="#">Accessesories</a></li>
+                    <li class="text-lg"><a href="#">Stories</a></li>
+                    <li class="text-lg"><a href="#">Leasing</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="flex gap-3 w-2/12 md:w-1/12 pr-4 md:pr-0">
+            <a href="./login.html"><i class="fa-regular fa-user w-full"></i></a>
+            <a href="../cart/cart.html"><i class="fa-solid fa-cart-shopping w-full"></i></a>
+        </section>
+    </header>
+    <main class="relative w-full h-[100vh]">
+        <img class="w-full h-full object-cover" src="../../assets/images/Section.svg" alt="">
+        <div class="absolute w-1/2 h-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-400 p-4 rounded-lg shadow-lg">
+            <form class="">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

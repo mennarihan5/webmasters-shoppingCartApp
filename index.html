@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="./output.css" rel="stylesheet">
+    <title>Bike Web App</title>
+</head>
+<body class="font-montsserat text-black">
+    <!-- HEADER -->
+    <header class="container flex justify-between items-center gap-5 py-4 md:gap-0 m-auto">
+        <div class="flex items-center justify-between md:justify-center w-full md:w-8/12">
+            <h1 class="w-32 md:w-72">
+                <img class="w-full" src="./assets/images/Link.svg" alt="Logo">
+            </h1>
+            <nav class="md:w-full">
+                <i class="fa-solid fa-ellipsis-vertical hidden"></i>
+                <ul class="hidden md:flex justify-between gap-3">
+                    <li class="text-sm lg:text-lg"><a href="#">Electric</a></li>
+                    <li class="text-sm lg:text-lg"><a href="#">City</a></li>
+                    <li class="text-sm lg:text-lg"><a href="#">Kids</a></li>
+                    <li class="text-sm lg:text-lg"><a href="#">Accessesories</a></li>
+                    <li class="text-sm lg:text-lg"><a href="#">Stories</a></li>
+                    <li class="text-sm lg:text-lg"><a href="#">Leasing</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="block lg:hidden w-10 md:w-3">
+            <i class="fa-solid fa-ellipsis-vertical w-full"></i>
+        </div>
+        <div class="hidden lg:flex items-center w-60 gap-3">
+            <div class="flex gap-4">
+                <a href="./pages/signin/signin.html"><button class="font-semibold text-xs md:text-lg md:w-30 border rounded border-black py-2 px-3 cursor-pointer">Sign In</button></i></a>
+                <a href="./pages/signup/signup.html"><button class="font-semibold text-xs md:text-lg md:w-30  border rounded border-black py-2 px-3 cursor-pointer">Sign Up</button></a>
+            </div>
+            <div class="text-xl">
+                <a href="./pages/cart/cart.html"><i class="fa-solid fa-cart-shopping w-full"></i></a>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- HERO -->
+        <section class="relative w-full">
+            <img class="w-full" src="./assets/images/Hero Section.svg" alt="">
+            <div class="absolute top-1/2 left-10 text-white">
+                <p class="text-base">VELORETTI BUSINESS</p>
+                <h3 class="font-medium text-lg md:text-4xl lg:text-6xl">Bike lease plan for employees.</h3>
+            </div>
+        </section>
+        <!-- SECTION ONE -->
+        <section class="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center m-auto w-11/12 mt-10 gap-2">
+            <div class="md:w-1/2">
+                <img src="./assets/images/Wrapper.svg" alt="">
+            </div>
+            <div class="md:w-1/2 md:p-20">
+                <h2 class="font-medium text-2xl lg:text-4xl mb-5">Bike plans for <br>
+                    employees.</h2>
+                <p class="text-sm md:text-lg mb-5">Veloretti Electrics benefit both the environment and the health of
+                    your employees. Oh, and they look good too. Cost-free for the
+                    employer and outside of the WKR.</p>
+                <div>
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION TWO -->
+         <section class="relative w-full mt-10">
+            <img class="w-full" src="./assets/images/Text-media-new_background.svg" alt="">
+            <div class="text-black md:text-white p-5 md:absolute md:top-1/4 md:left-20">
+                <h2 class="font-medium text-2xl lg:text-4xl mb-5">Service, <br />
+                    maintenance and <br />
+                    insurance</h2>
+                <p class="text-sm md:text-lg mb-5 w-full md:w-1/2 lg:w-1/4">The lease includes an all-in service package.
+                    Throughout the entire 36 months, you are
+                    fully insured against damage, theft and
+                    maintenance. In addition, you always have
+                    access to roadside assistance. </p>
+            </div>
+         </section>
+        <!-- SECTION THREE -->
+         <section class="flex flex-wrap md:flex-nowrap md:justify-between w-11/12 gap-2 m-auto mt-10">
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center p-5 bg-lightGrey">
+                <div class="flex w-full justify-between">
+                    <p class="font-medium text-lg">Electric Ace</p>
+                    <p>€69,07 NET/MONTH</p>
+                </div>
+                <img class="w-5/6" src="./assets/images/image (1).svg" alt="">
+                <button class="mt-5 font-semibold bg-white border rounded border-black py-3 px-5 cursor-pointer">Add to cart</button>
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center p-5 bg-lightGrey">
+                <div class="flex w-full justify-between">
+                    <p class="font-medium text-lg">Electric Ivy Two</p>
+                    <p>€69,07 NET/MONTH</p>
+                </div>
+                <img class="w-5/6" src="./assets/images/span.svg" alt="">
+                <button class="mt-5 font-semibold bg-white border rounded border-black py-3 px-5 cursor-pointer">Add to cart</button>
+            </div>
+         </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
